@@ -50,14 +50,14 @@ output <-confusionMatrix(data.test$activity, data.pred)
 Below is the confusion matrix that shows the intersection of the actuals versus the predicted:
 
 
-|-------|WALKING|WALKING_UPSTAIRS|WALKING_DOWNSTAIRS| SITTING|STANDING|LAYING|
+|Pred/Act|WALKING|WALKING_UPSTAIRS|WALKING_DOWNSTAIRS| SITTING|STANDING|LAYING|
 |-------|-------|----------------|------------------|--------|--------|------|
-|WALKING|              9     |             0         |           0    |     0          |0     |   0|
-|WALKING_UPSTAIRS     |       0          |        6         |           0     |    0          |0    |    0|
-|WALKING_DOWNSTAIRS    |      0          |        0         |           7    |     0          |0     |   0|
-|SITTING        |             0        |          0         |           0    |     6          |1     |   0|
-|STANDING    |                0          |        0          |          0    |     0         |10     |   0|
-|LAYING       |               0        |          0           |         0     |    0          |0    |    6|
+|**WALKING**|              9     |             0         |           0    |     0          |0     |   0|
+|**WALKING_UPSTAIRS**|       0          |        6         |           0     |    0          |0    |    0|
+|**WALKING_DOWNSTAIRS**    |      0          |        0         |           7    |     0          |0     |   0|
+|**SITTING**        |             0        |          0         |           0    |     6          |1     |   0|
+|**STANDING**    |                0          |        0          |          0    |     0         |10     |   0|
+|**LAYING**       |               0        |          0           |         0     |    0          |0    |    6|
 
 In this scenario, the actual labels lie along the top of the table and the predicted labels along the left-hand side.  The diagonal from the upper-left hand corner down to the bottom-right are where the predictions match the actuals.  From this table, we can see that the model misclassified one instance as `SITTING` when it was actually `STANDING`.
 
