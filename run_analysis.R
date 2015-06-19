@@ -72,5 +72,7 @@ data <- train %>%
   group_by(subject, activity, measurement) %>%
   summarise(mean=mean(value)) %>%
   spread(measurement, mean)
+
+write.table(data, "tidydataset.txt", quote = F, row.names = F)
   
   
