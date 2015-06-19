@@ -99,14 +99,14 @@ The code above creates a random forest using 2, 3 and 4 Principal Components and
 
 
 
-                     All   2 Component   3 Component   4 Component
----------------  -------  ------------  ------------  ------------
-Accuracy          0.9778        0.7556        0.8000        0.9556
-Kappa             0.9731        0.7052        0.7576        0.9462
-AccuracyLower     0.8823        0.6046        0.6540        0.8485
-AccuracyUpper     0.9994        0.8712        0.9042        0.9946
-AccuracyNull      0.2444        0.2222        0.2222        0.2222
-AccuracyPValue    0.0000        0.0000        0.0000        0.0000
-McnemarPValue        NaN           NaN           NaN           NaN
+|                |     All |  2 Component |   3 Component| 4 Component |
+|--------------- | ------- | ------------ | ------------ | ------------|
+|Accuracy        |  0.9778 |       0.7556 |      0.8000  |      0.9556 |
+|Kappa           |  0.9731 |       0.7052 |      0.7576  |      0.9462 |
+|AccuracyLower   |  0.8823 |       0.6046 |      0.6540  |      0.8485 |
+|AccuracyUpper   |  0.9994 |       0.8712 |      0.9042  |      0.9946 |
+|AccuracyNull    |  0.2444 |      0.2222  |      0.2222  |      0.2222 |
+|AccuracyPValue  |  0.0000 |      0.0000  |     0.0000   |      0.0000 |
+|McnemarPValue   |     NaN |         NaN  |         NaN  |      NaN    |
 
 
