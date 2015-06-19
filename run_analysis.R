@@ -73,6 +73,7 @@ data <- train %>%
   summarise(mean=mean(value)) %>%
   spread(measurement, mean)
 
+# Write the tidy dataset to disk
 write.table(data, "tidydataset.txt", quote = F, row.names = F)
-  
+
   
