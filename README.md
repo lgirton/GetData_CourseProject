@@ -18,7 +18,7 @@ install.packages("dplyr")
 install.packages("tidyr")
 
 ```
-The *run_analysis.R*, *README.md*, *CodeBook.md* are the only files necessary to satisfy the Course Project assignment, but I have also included a Rmarkdown file, [Prediction.Rmd](./Prediction.Rmd) and the corresponding output, [Prediction.html](./Prediction.html) that goes a little further to make predictions on the using Random Forest decision tree classifier.  Additionally, I delve into using Principal Components Analysis (PCA) on the dataset to reduce some of the dimensions to aid in visualizing the dataset, as well as compare models built using a subset of the principal components to that of the original dataset.
+The *run_analysis.R*, *README.md*, *CodeBook.md* are the only files necessary to satisfy the Course Project assignment, but I have also included a Rmarkdown file, [Prediction.Rmd](./Prediction.Rmd) and the corresponding generated Markdown file [Prediction.md](./Prediction.md) that goes a little further to make predictions on the using Random Forest decision tree classifier.  Additionally, I delve into using Principal Components Analysis (PCA) on the dataset to reduce some of the dimensions to aid in visualizing the dataset, as well as compare models built using a subset of the principal components to that of the original dataset.
 
 (SPOILER ALERT: The model is able to achieve 97% accuracy in predicting the activity!).
 
