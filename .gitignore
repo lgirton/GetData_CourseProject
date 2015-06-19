@@ -2,3 +2,5 @@
 *.Rproj
 UCI HAR Dataset*
 README.html
+CodeBook.html
+tidydataset.txt
